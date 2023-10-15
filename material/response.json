@@ -1,0 +1,17 @@
+{
+    "prompt": [
+        "Answer the following questions as best you can. You have access to the following tools:\n\nSearch: A search engine. Useful for when you need to answer questions about current events. Input should be a search query.\nCalculator: Useful for when you need to answer questions about math.\n\nUse the following format:\n\nQuestion: the input question you must answer\nThought: you should always think about what to do\nAction: the action to take, should be one of [Search, Calculator]\nAction Input: the input to the action\nObservation: the result of the action\n... (this Thought/Action/Action Input/Observation can repeat N times)\nThought: I now know the final answer\nFinal Answer: the final answer to the original input question\n\nBegin!\n\nQuestion: \u8c01\u662f\u5468\u6770\u4f26? What is her current age raised to the 0.43 power?\nThought:"
+    ],
+    "model": "text-davinci-003",
+    "temperature": 0.0,
+    "max_tokens": 256,
+    "top_p": 1,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "n": 1,
+    "logit_bias": {},
+    "stop": [
+        "\nObservation:",
+        "\n\tObservation:"
+    ]
+}

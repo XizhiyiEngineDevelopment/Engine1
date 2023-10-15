@@ -1,0 +1,868 @@
+GET /search?engine=google&google_domain=google.com&gl=us&hl=en&api_key=7e91aa8e65554dfc6d13609693433db638ea0d3e81cd7fad42a2eb1c40d17f5c&q=Who+is+Jay+Chou&output=json&source=python HTTP/2
+Host: serpapi.com
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: close
+
+HTTP/2 200 OK
+Date: Tue, 03 Oct 2023 10:09:26 GMT
+Content-Type: application/json; charset=utf-8
+Cf-Ray: 810463ac4a512669-NRT
+Cf-Cache-Status: MISS
+Cache-Control: max-age=3600, public
+Etag: W/"807dadd5ca76859f8ed3fb2bf1251d06"
+Vary: Accept-Encoding
+Referrer-Policy: strict-origin-when-cross-origin
+Serpapi-Search-Id: 651be854ada54b05998005e5
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: c76fe93a-6134-4900-8df3-26b05ddf6e52
+X-Robots-Tag: noindex, nofollow
+X-Runtime: 1.983156
+X-Xss-Protection: 1; mode=block
+Server: cloudflare
+Alt-Svc: h3=":443"; ma=86400
+
+{
+  "search_metadata": {
+    "id": "651be854ada54b05998005e5",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/37f70289936e8eb9/651be854ada54b05998005e5.json",
+    "created_at": "2023-10-03 10:09:24 UTC",
+    "processed_at": "2023-10-03 10:09:24 UTC",
+    "google_url": "https://www.google.com/search?q=Who+is+Jay+Chou&oq=Who+is+Jay+Chou&hl=en&gl=us&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/37f70289936e8eb9/651be854ada54b05998005e5.html",
+    "total_time_taken": 1.72
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "Who is Jay Chou",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Who is Jay Chou",
+    "total_results": 16900000,
+    "time_taken_displayed": 0.45,
+    "menu_items": [
+      {
+        "position": 1,
+        "title": "Images",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Who+is+Jay+Chou&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQ0pQJegQIDhAB",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_images&gl=us&google_domain=google.com&hl=en&q=Who+is+Jay+Chou"
+      },
+      {
+        "position": 2,
+        "title": "Videos",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Who+is+Jay+Chou&tbm=vid&source=lnms&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQ0pQJegQIDRAB",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_videos&gl=us&google_domain=google.com&hl=en&q=Who+is+Jay+Chou"
+      },
+      {
+        "position": 3,
+        "title": "News",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Who+is+Jay+Chou&tbm=nws&source=lnms&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQ0pQJegQIDBAB",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Who+is+Jay+Chou&tbm=nws"
+      },
+      {
+        "position": 4,
+        "title": "Shopping",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Who+is+Jay+Chou&tbm=shop&source=lnms&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQ0pQJegQICxAB",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Who+is+Jay+Chou"
+      },
+      {
+        "position": 5,
+        "title": "Maps",
+        "link": "https://maps.google.com/maps?sca_esv=570303733&gl=us&hl=en&output=search&q=Who+is+Jay+Chou&source=lnms&entry=mc&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQ0pQJegUIoAEQAQ"
+      },
+      {
+        "position": 6,
+        "title": "Books",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Who+is+Jay+Chou&tbm=bks&source=lnms&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQ0pQJegUIowEQAQ"
+      },
+      {
+        "position": 7,
+        "title": "Flights",
+        "link": "https://www.google.com/travel/flights?sca_esv=570303733&gl=us&hl=en&output=search&q=Who+is+Jay+Chou&source=lnms&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQ0pQJegUIogEQAQ"
+      },
+      {
+        "position": 8,
+        "title": "Finance",
+        "link": "https://www.google.com/finance?sca_esv=570303733&gl=us&hl=en&output=search&q=Who+is+Jay+Chou&source=lnms&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQ0pQJegUIoQEQAQ"
+      }
+    ],
+    "organic_results_state": "Results for exact spelling"
+  },
+  "knowledge_graph": {
+    "title": "Jay Chou",
+    "type": "Taiwanese singer and musician",
+    "main_tab_text": "Overview",
+    "kgmid": "/m/02nfjp",
+    "knowledge_graph_search_link": "https://www.google.com/search?kgmid=/m/02nfjp&hl=en-US&q=Jay+Chou&kgs=84c73b87b88393ef&shndl=17&source=sh/x",
+    "serpapi_knowledge_graph_search_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en-US&kgmid=%2Fm%2F02nfjp&q=Jay+Chou",
+    "tabs": [
+      {
+        "text": "Songs",
+        "si": "ALGXSlaFveKG6Tutp_V0LpZyCcqT3I6U7fGKQJqBZ-imDuPDYvhTgcmJ_yLNxbsT7hwpKRTbxJT2iVCOe6-6kMSXGpAx22I527f2Sk4C6tO0Kt0qy4LB1ZEzBCDrGI6iTOVAwfkp8FCjH-ptkw3jhpgaUmcHlcfQYQgGadEtxwRpSbGhpwRieqKRV7O5y7ycpBkTtyZHDKeLoUJIgWAIq6My46HPWzC5BA==",
+        "link": "https://www.google.com/search?si=ALGXSlaFveKG6Tutp_V0LpZyCcqT3I6U7fGKQJqBZ-imDuPDYvhTgcmJ_yLNxbsT7hwpKRTbxJT2iVCOe6-6kMSXGpAx22I527f2Sk4C6tO0Kt0qy4LB1ZEzBCDrGI6iTOVAwfkp8FCjH-ptkw3jhpgaUmcHlcfQYQgGadEtxwRpSbGhpwRieqKRV7O5y7ycpBkTtyZHDKeLoUJIgWAIq6My46HPWzC5BA==",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Who+is+Jay+Chou&si=ALGXSlaFveKG6Tutp_V0LpZyCcqT3I6U7fGKQJqBZ-imDuPDYvhTgcmJ_yLNxbsT7hwpKRTbxJT2iVCOe6-6kMSXGpAx22I527f2Sk4C6tO0Kt0qy4LB1ZEzBCDrGI6iTOVAwfkp8FCjH-ptkw3jhpgaUmcHlcfQYQgGadEtxwRpSbGhpwRieqKRV7O5y7ycpBkTtyZHDKeLoUJIgWAIq6My46HPWzC5BA%3D%3D"
+      },
+      {
+        "text": "Albums"
+      },
+      {
+        "text": "Videos"
+      },
+      {
+        "text": "Events",
+        "si": "ALGXSlZKsTpGCFSVbdRT-UTUWYJ9ktf7rHjFXTKohZ3K8ssmCgRbacnGWcJ_1Z97wmhk3QUi1NyAMJ99LmSS5AqdXtf8_Q-inoPSXUaUHQ-H2p2z9Z30cUDeRs4djlfZqToxWWI-jTP8GWrQJZnoW-4HKMkflD0Xl57r6CtP-Ib78nApCQx93Z0V7bE0LJ-i8JVR0bjsYEdT",
+        "link": "https://www.google.com/search?si=ALGXSlZKsTpGCFSVbdRT-UTUWYJ9ktf7rHjFXTKohZ3K8ssmCgRbacnGWcJ_1Z97wmhk3QUi1NyAMJ99LmSS5AqdXtf8_Q-inoPSXUaUHQ-H2p2z9Z30cUDeRs4djlfZqToxWWI-jTP8GWrQJZnoW-4HKMkflD0Xl57r6CtP-Ib78nApCQx93Z0V7bE0LJ-i8JVR0bjsYEdT",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Who+is+Jay+Chou&si=ALGXSlZKsTpGCFSVbdRT-UTUWYJ9ktf7rHjFXTKohZ3K8ssmCgRbacnGWcJ_1Z97wmhk3QUi1NyAMJ99LmSS5AqdXtf8_Q-inoPSXUaUHQ-H2p2z9Z30cUDeRs4djlfZqToxWWI-jTP8GWrQJZnoW-4HKMkflD0Xl57r6CtP-Ib78nApCQx93Z0V7bE0LJ-i8JVR0bjsYEdT"
+      },
+      {
+        "text": "Listen",
+        "si": "ALGXSlYrKxcKileWiYuqyTcgfBw9rHd9yS13_MEsLb1bNf0uTOFlLq4HTeUyg58clb4VcCwTvCTOw7HGq2Vj57WTpM4Ew-nyGNWmgtCo-IP0j0FGW7-nJUtrUT8VoaQHvQ67pgRVhelFYV1L3WEdj4tLUrO07MGQTXl4L1OqQiKdtdYGCFw0lsw=",
+        "link": "https://www.google.com/search?si=ALGXSlYrKxcKileWiYuqyTcgfBw9rHd9yS13_MEsLb1bNf0uTOFlLq4HTeUyg58clb4VcCwTvCTOw7HGq2Vj57WTpM4Ew-nyGNWmgtCo-IP0j0FGW7-nJUtrUT8VoaQHvQ67pgRVhelFYV1L3WEdj4tLUrO07MGQTXl4L1OqQiKdtdYGCFw0lsw=",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Who+is+Jay+Chou&si=ALGXSlYrKxcKileWiYuqyTcgfBw9rHd9yS13_MEsLb1bNf0uTOFlLq4HTeUyg58clb4VcCwTvCTOw7HGq2Vj57WTpM4Ew-nyGNWmgtCo-IP0j0FGW7-nJUtrUT8VoaQHvQ67pgRVhelFYV1L3WEdj4tLUrO07MGQTXl4L1OqQiKdtdYGCFw0lsw%3D"
+      },
+      {
+        "text": "Relationships",
+        "si": "ALGXSlam_HSxGRK2P3a-JXy9cGijZYP0QCqyV-sy7uBv_gi2stNBNBIDJv2VuKxhIVc-xbe7RQh2_-dbR9O9s_HUzz6As6vlkem8Ohrp8s3aDcCglS4s-yooTthRJ6tAkIkii0ZLEdxkC9xpD_3E1Lo1t7p7yxJSzTmpZ1oAea2ygucb7thE42I=",
+        "link": "https://www.google.com/search?si=ALGXSlam_HSxGRK2P3a-JXy9cGijZYP0QCqyV-sy7uBv_gi2stNBNBIDJv2VuKxhIVc-xbe7RQh2_-dbR9O9s_HUzz6As6vlkem8Ohrp8s3aDcCglS4s-yooTthRJ6tAkIkii0ZLEdxkC9xpD_3E1Lo1t7p7yxJSzTmpZ1oAea2ygucb7thE42I=",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Who+is+Jay+Chou&si=ALGXSlam_HSxGRK2P3a-JXy9cGijZYP0QCqyV-sy7uBv_gi2stNBNBIDJv2VuKxhIVc-xbe7RQh2_-dbR9O9s_HUzz6As6vlkem8Ohrp8s3aDcCglS4s-yooTthRJ6tAkIkii0ZLEdxkC9xpD_3E1Lo1t7p7yxJSzTmpZ1oAea2ygucb7thE42I%3D"
+      },
+      {
+        "text": "Movies and TV shows",
+        "si": "ALGXSlabEf0YVmxi8CkaAzp52pb8G02_6nijJEm9Z2AR3xGfP_VqD8xEUP30eGbOncjE0j6Os8C_ffaViEOyWJzdS46ohDRDwMcETg4T8VYHT-I70Tk-js47kJAh9SD-ThR30m2AIdyQ9KiBftNbWpTKrnXhhz4GAmFVNWhWbrkeMJPaSbZQ9drvmWHhnrDiFkC_BKsjrizwiTOCUl_kR0WPK13R9xN67u92UpD3fHJKCbqD-sHieGc=",
+        "link": "https://www.google.com/search?si=ALGXSlabEf0YVmxi8CkaAzp52pb8G02_6nijJEm9Z2AR3xGfP_VqD8xEUP30eGbOncjE0j6Os8C_ffaViEOyWJzdS46ohDRDwMcETg4T8VYHT-I70Tk-js47kJAh9SD-ThR30m2AIdyQ9KiBftNbWpTKrnXhhz4GAmFVNWhWbrkeMJPaSbZQ9drvmWHhnrDiFkC_BKsjrizwiTOCUl_kR0WPK13R9xN67u92UpD3fHJKCbqD-sHieGc=",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Who+is+Jay+Chou&si=ALGXSlabEf0YVmxi8CkaAzp52pb8G02_6nijJEm9Z2AR3xGfP_VqD8xEUP30eGbOncjE0j6Os8C_ffaViEOyWJzdS46ohDRDwMcETg4T8VYHT-I70Tk-js47kJAh9SD-ThR30m2AIdyQ9KiBftNbWpTKrnXhhz4GAmFVNWhWbrkeMJPaSbZQ9drvmWHhnrDiFkC_BKsjrizwiTOCUl_kR0WPK13R9xN67u92UpD3fHJKCbqD-sHieGc%3D"
+      }
+    ],
+    "header_images": [
+      {
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3c185d79963e880b09936fc54c54c30db7469a545976819f38.jpeg",
+        "source": "https://variety.com/2022/digital/asia/jay-chou-nfts-1235330434/"
+      },
+      {
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3c185d79963e880b09c8258778548ce40d24859dd0689579c1.jpeg",
+        "source": "https://www.scmp.com/magazines/style/celebrity/article/3095357/5-reasons-why-jay-chou-king-mandopop-taiwanese-superstar"
+      },
+      {
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3c185d79963e880b0972aea145dc9fd28d807640dfa1625751.jpeg",
+        "source": "https://theindependent.sg/jay-chou-impresses-netizens-with-his-fluent-english/"
+      }
+    ],
+    "description": "Jay Chou is a Taiwanese singer and musician. Dubbed the \"King of Mandopop\", and having sold over 30 million records, Chou is one of the best-selling artists in Taiwan and is known for his work with lyricist Vincent Fang, with whom he has frequently collaborated on his music.",
+    "source": {
+      "name": "Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Jay_Chou"
+    },
+    "born": "January 18, 1979 (age 44 years), Linkou District, Taipei, Taiwan",
+    "born_links": [
+      {
+        "text": "Linkou District, Taipei, Taiwan",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Linkou+District&si=ALGXSlYh1-GEPndq7qMo--O-TPixQtNN4JMroSxgItz5kq0stA-5PgHrKgT3CqdHBXXPKvl9iX6u8X8m_iN3gg3_-HUrr0z4E3LVauzLks9MlCtYEMRoi-ei644MIKPKMAqeUEr1e1j1HxXag9qNFhsPXpi3SVSh1lLXYn_PZRZslXf-bJMyWpUkGktcOs4X-XBWtbzp8p9h23LEA605tZxoPCf_bkYIZA%3D%3D&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQmxMoAHoECCUQAg"
+      }
+    ],
+    "spouse": "Hannah Quinlivan (m. 2015)",
+    "spouse_links": [
+      {
+        "text": "Hannah Quinlivan",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Hannah+Quinlivan&si=ALGXSlYPkF2MKlZLFV56Lmj_Zy6ZT1rGy73vWpQufutnylBobaIP1IoBbFeH1-aUdDshFd7EEcRlXQpc88Tu8uvaPFeWInoEXp6QKe53mMGgyxKISgOYCn2M8njBwvPpTK-gd3bYO8LCT34r0elIOa10aS_QgeShEuSuqNgdFZvMIFUxmXUZpPQ23ZZe-xh_Rdac3eGpLbUsvluFBbXGzyb34p3FGypzOw%3D%3D&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQmxMoAHoECCYQAg"
+      }
+    ],
+    "height": "5′ 8″",
+    "albums": "Jay, Greatest Works of Art, Ye Hui Mei, MORE",
+    "albums_links": [
+      {
+        "text": "Jay",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Jay+Chou+Jay&stick=H4sIAAAAAAAAAOPgE-LUz9U3MMpLyypQ4gIxDXNKqkrStcSzk630c0uLM5P1E4tKMotLrBJzkkpzixex8nglVio4Z-SXKgAZO1gZd7EzcTACAEAmrslJAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQmxMoAHoECCsQAg"
+      },
+      {
+        "text": "Greatest Works of Art",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Jay+Chou+Greatest+Works+of+Art&stick=H4sIAAAAAAAAAOPgE-LUz9U3MMpLyypQ4tVP1zc0LDYxT0k3zUnTEs9OttLPLS3OTNZPLCrJLC6xSsxJKs0tXsQq55VYqeCckV-q4F6UmliSWlyiEJ5flF2skJ-m4FhUsoOVcRc7EwcjAKJMTypeAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQmxMoAXoECCsQAw"
+      },
+      {
+        "text": "Ye Hui Mei",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Jay+Chou+Ye+Hui+Mei&stick=H4sIAAAAAAAAAOPgE-LUz9U3MMpLyypQ4gIxDXNKqsrStMSzk630c0uLM5P1E4tKMotLrBJzkkpzixexCnslVio4Z-SXKkSmKniUZir4pmbuYGXcxc7EwQgAx5e5R1AAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQmxMoAnoECCsQBA"
+      }
+    ],
+    "web_results": [
+      {
+        "thumbnail": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3c8d87b73f2583c3f1f29fd57bd954c2519dbccde402ed9d62.jpeg",
+        "title": "周杰倫 JAY CHOU ft. JABBAWOCKEEZ【紅顏如霜Cold ...",
+        "snippet": "... jaychou Facebook: https://www.facebook.com/jay ▻Subscribe Jay Chou https://www.youtube.com/jaychou ▻2022 \"Greatest Works of Art\" Album ...",
+        "source": "YouTube • 周杰倫 Jay Chou",
+        "source_image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3c8d87b73f2583c3f13df6e2ba7eb19921de2e91a5792471b86b3c50121b1da3be.png",
+        "link": "https://www.youtube.com/watch?v=APgx1k-2Tqc",
+        "duration": "4:18"
+      },
+      {
+        "title": "Age",
+        "snippet": "44 years",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=jay+chou+born&stick=H4sIAAAAAAAAAOPgE2LQEstOttIvSM0vyEkFUkXF-XlWSflFeYtYebMSKxWSM_JLFUB8APVVEgYsAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQ18AJegQIHRAB"
+      },
+      {
+        "title": "Spouse",
+        "snippet": "Hannah Quinlivan (m. 2015)",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Hannah+Quinlivan&si=ALGXSlYPkF2MKlZLFV56Lmj_Zy6ZT1rGy73vWpQufutnylBobaIP1IoBbFeH1-aUdDshFd7EEcRlXQpc88Tu8uvaPFeWInoEXp6QKe53mMGgyxKISgOYCn2M8njBwvPpTK-gd3bYO8LCT34r0elIOa10aS_QgeShEuSuqNgdFZvMIFUxmXUZpPQ23ZZe-xh_Rdac3eGpLbUsvluFBbXGzyb34p3FGypzOw%3D%3D&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQ18AJegQIHhAB"
+      },
+      {
+        "thumbnail": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3c8d87b73f2583c3f1f6d03fcd1a923a8f1ebe41b4210f2f93.jpeg",
+        "title": "Jay Chou's mum is about to make US$54 million off her son ...",
+        "source": "South China Morning Post",
+        "source_image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3c8d87b73f2583c3f1cb8e9b2a32d1adee0d6a57b3995c631f1b9576cafca3e2ca.png",
+        "link": "https://www.scmp.com/magazines/style/celebrity/article/3227520/jay-chous-mum-about-make-us54-million-her-son-heres-how-her-company-owns-taiwanese-mandopop-stars",
+        "date": "Jul 13, 2023"
+      }
+    ],
+    "songs": [
+      {
+        "name": "I Truly Believe",
+        "extensions": "Greatest Works of Art · 2022",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=jay+chou+i+truly+believe&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4tVP1zc0zDJJSa_KrkrSEvQtLc5MdiwqySwuCckPzs9LX8QqkZVYqZCckV-qkKlQUlSaU6mQlJqTmVqWCgAcgzBtSgAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQri56BAgwEAM",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=jay+chou+i+truly+believe&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4tVP1zc0zDJJSa_KrkrSEvQtLc5MdiwqySwuCckPzs9LX8QqkZVYqZCckV-qkKlQUlSaU6mQlJqTmVqWCgAcgzBtSgAAAA",
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3cb5d0cefa6e59cd4df2d858dd54d08764.jpeg"
+      },
+      {
+        "name": "I Fu Chi Min",
+        "extensions": "Ye Hui Mei · 2003",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=jay+chou+i+fu+chi+min&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4tFP1zcsNM0yL8nITdIS9C0tzkx2LCrJLC4JyQ_Oz0tfxCqalVipkJyRX6qQqZBWCmRlKuRm5gEAbTUgTkYAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQri56BAgwEAY",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=jay+chou+i+fu+chi+min&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4tFP1zcsNM0yL8nITdIS9C0tzkx2LCrJLC4JyQ_Oz0tfxCqalVipkJyRX6qQqZBWCmRlKuRm5gEAbTUgTkYAAAA",
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3c74e14904e6a04c2bf483b79c7665b9ad.jpeg"
+      },
+      {
+        "name": "Dao Xiang",
+        "extensions": "Capricorn · 2008",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=jay+chou+dao+xiang&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4tFP1zcsNM2qSi7JzdYS9C0tzkx2LCrJLC4JyQ_Oz0tfxCqUlVipkJyRX6qQkpivUJGZmJcOAP1KBqxDAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQri56BAgwEAk",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=jay+chou+dao+xiang&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4tFP1zcsNM2qSi7JzdYS9C0tzkx2LCrJLC4JyQ_Oz0tfxCqUlVipkJyRX6qQkpivUJGZmJcOAP1KBqxDAAAA",
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3ca7456880d233dd4f7bfff7356817b3b9.jpeg"
+      },
+      {
+        "name": "Chin Tien",
+        "extensions": "Ye Hui Mei · 2003",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=jay+chou+chin+tien&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4tFP1zcsNjAzMy6qzNYS9C0tzkx2LCrJLC4JyQ_Oz0tfxCqUlVipkJyRXwokMvMUSjJT8wBRtrroQwAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQri56BAgwEAw",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=jay+chou+chin+tien&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4tFP1zcsNjAzMy6qzNYS9C0tzkx2LCrJLC4JyQ_Oz0tfxCqUlVipkJyRXwokMvMUSjJT8wBRtrroQwAAAA",
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3c33cc94ee5d1342d8c1b78d7a37ca30a8.jpeg"
+      },
+      {
+        "name": "All the Way North MV",
+        "extensions": "Initial J · 2005",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=jay+chou+all+the+way+north+mv&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4tVP1zc0TDbOzjOqNDLREvQtLc5MdiwqySwuCckPzs9LX8Qqm5VYqZCckV-qkJiTo1CSkapQDhTIyy8qyVDILQMAHNa9JU8AAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQri56BAgwEA8",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=jay+chou+all+the+way+north+mv&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4tVP1zc0TDbOzjOqNDLREvQtLc5MdiwqySwuCckPzs9LX8Qqm5VYqZCckV-qkJiTo1CSkapQDhTIyy8qyVDILQMAHNa9JU8AAAA",
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3c664b225fe0675cbc572a2b7f67cdac39.jpeg"
+      },
+      {
+        "name": "Lan Ting Xu",
+        "extensions": "Capricorn · 2008",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=jay+chou+lan+ting+xu&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4tVP1zc0TDJLzjA2K0zXEvQtLc5MdiwqySwuCckPzs9LX8QqkpVYqZCckV-qkJOYp1CSmZeuUFEKADavNV5GAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQri56BAgwEBI",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=jay+chou+lan+ting+xu&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4tVP1zc0TDJLzjA2K0zXEvQtLc5MdiwqySwuCckPzs9LX8QqkpVYqZCckV-qkJOYp1CSmZeuUFEKADavNV5GAAAA",
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3c9e2721c551e2f1dfb881c668c974c372.jpeg"
+      },
+      {
+        "name": "A Dandelion's Promise",
+        "extensions": "On the Run · 2007",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=jay+chou+a+dandelion%27s+promise&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4tFP1zcsNM0yNcwwKNES9C0tzkx2LCrJLC4JyQ_Oz0tfxCqXlVipkJyRX6qQqJCSmJeSmpOZn6derFBQlJ-bWZwKACe40yhPAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQri56BAgwEBU",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=jay+chou+a+dandelion%27s+promise&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4tFP1zcsNM0yNcwwKNES9C0tzkx2LCrJLC4JyQ_Oz0tfxCqXlVipkJyRX6qQqJCSmJeSmpOZn6derFBQlJ-bWZwKACe40yhPAAAA",
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3c1443e4b65ab9c535cf717b76a6c20d93.jpeg"
+      },
+      {
+        "name": "Blue and White Porcelain",
+        "extensions": "On the Run · 2007",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=jay+chou+blue+and+white+porcelain&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4tVP1zc0TDJLLjcvMKjQEvQtLc5MdiwqySwuCckPzs9LX8SqmJVYqZCckV-qkJRTmqqQmJeiUJ6RWZKqUJBflJyak5iZBwB9dlEXUwAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQri56BAgwEBg",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=jay+chou+blue+and+white+porcelain&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4tVP1zc0TDJLLjcvMKjQEvQtLc5MdiwqySwuCckPzs9LX8SqmJVYqZCckV-qkJRTmqqQmJeiUJ6RWZKqUJBflJyak5iZBwB9dlEXUwAAAA",
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3ca93b3158d185b29b8368215709864185.jpeg"
+      }
+    ],
+    "listen": [
+      {
+        "name": "YouTube",
+        "link": "https://www.youtube.com/channel/UC8CU5nVhCQIdAGrFFp4loOQ?feature=gws_kp_artist&feature=gws_kp_artist",
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3cc920058490caf07b51784f470f79aedb.png"
+      },
+      {
+        "name": "Spotify",
+        "link": "https://open.spotify.com/artist/2elBjNSdBE2Y3f0j1mjrql?autoplay=true",
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3cec73b54d26c12860bef7409f29e4f7dd.png"
+      },
+      {
+        "name": "Apple Music",
+        "link": "https://music.apple.com/us/artist/%E5%91%A8%E6%9D%B0%E5%80%AB/300117743",
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3caee551fca777f3f7a51a5ec9efb343af.png"
+      },
+      {
+        "name": "YouTube Music",
+        "link": "https://music.youtube.com/channel/UCL2MDNdwEtV6aYUgNjFQGZA?feature=gws_kp_artist&feature=gws_kp_artist",
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3cfdf3a4fbd17076c94cf1e034f8384a44.png"
+      }
+    ],
+    "profiles": [
+      {
+        "name": "Instagram",
+        "link": "https://www.instagram.com/jaychou/",
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3cc688d04c527752cdd8bc7dc3090eed1871973ea1290b30a0.png"
+      },
+      {
+        "name": "YouTube",
+        "link": "https://www.youtube.com/user/JayChouHD",
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3cc688d04c527752cdd7d6deccabc4a8d0f29e48fd6695df34.png"
+      },
+      {
+        "name": "Facebook",
+        "link": "https://www.facebook.com/jay/",
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3cc688d04c527752cdbacc7ce66b4dfa09f65fa14a0ab6a641.png"
+      }
+    ],
+    "people_also_search_for": [
+      {
+        "name": "Hannah Quinlivan",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&si=ALGXSlYPkF2MKlZLFV56Lmj_Zy6ZT1rGy73vWpQufutnylBobaIP1IoBbFeH1-aUdDshFd6a4do0Vez5a3Tes0BAYT7JWZRACqmjglsHTbDR2jUO7oOzfrkDxw-c0FxGu70BAMcqJIDug7FhYO5TKdrVJLaIGWsiZdIy7S--C66-8KU0cJ2OtoD4lPZ4tfsfr9UoT3dAwIVhPmL1ZCVGTEvszbFzv15pL34yG8erFweeDc_tfxCwJyDe4ww_q6frV-uP9yIpII5d4KTP-cd_zyCf1ojFTt_Ze9-U_LiMFN_O7FwQDMWojTQaLpkkEueoMudprqG9YC1u&q=Hannah+Quinlivan&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQs9oBKAB6BAgjEAI",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Hannah+Quinlivan&si=ALGXSlYPkF2MKlZLFV56Lmj_Zy6ZT1rGy73vWpQufutnylBobaIP1IoBbFeH1-aUdDshFd6a4do0Vez5a3Tes0BAYT7JWZRACqmjglsHTbDR2jUO7oOzfrkDxw-c0FxGu70BAMcqJIDug7FhYO5TKdrVJLaIGWsiZdIy7S--C66-8KU0cJ2OtoD4lPZ4tfsfr9UoT3dAwIVhPmL1ZCVGTEvszbFzv15pL34yG8erFweeDc_tfxCwJyDe4ww_q6frV-uP9yIpII5d4KTP-cd_zyCf1ojFTt_Ze9-U_LiMFN_O7FwQDMWojTQaLpkkEueoMudprqG9YC1u",
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3c2c3f8834b7e019c02d188210873d42bf2f7983b4fcc993e1554468522e843a93.jpeg"
+      },
+      {
+        "name": "JJ Lin",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&si=ALGXSlYzFQQn5id74gU-GPAR8UsllKNebHx5zj2txQsc1FfqFDBWOD3wWEV9DaI8KLtLFhb8ekGKm_MUGJxN8oZB6hKWOk5s6aHDBwoSHJMj5CCSbFdiaj1IracL9a_Wfeme3YeqjKgF4P6L5GLDQDS_6nLF-NBar26zBGWjPjz3Gv7A7FKIhB-pp0DK0CHf3kBqjG86FkhnVtrlLuIz9COtzU0Qslc-K3img6zz6TCMO8jfDsOQKpj2O6-3H5Vo9Z3ZGG_ThDIlus4ai873PZUxozyUmxKXiKW1AYMPsKmTP8zGERpMUO4%3D&q=JJ+Lin&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQs9oBKAF6BAgjEAM",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=JJ+Lin&si=ALGXSlYzFQQn5id74gU-GPAR8UsllKNebHx5zj2txQsc1FfqFDBWOD3wWEV9DaI8KLtLFhb8ekGKm_MUGJxN8oZB6hKWOk5s6aHDBwoSHJMj5CCSbFdiaj1IracL9a_Wfeme3YeqjKgF4P6L5GLDQDS_6nLF-NBar26zBGWjPjz3Gv7A7FKIhB-pp0DK0CHf3kBqjG86FkhnVtrlLuIz9COtzU0Qslc-K3img6zz6TCMO8jfDsOQKpj2O6-3H5Vo9Z3ZGG_ThDIlus4ai873PZUxozyUmxKXiKW1AYMPsKmTP8zGERpMUO4%3D",
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3c2c3f8834b7e019c02d188210873d42bf77aad931341af3a882f5c7b08ebf99ee.jpeg"
+      },
+      {
+        "name": "Jolin Tsai",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&si=ALGXSlYzFQQn5id74gU-GPAR8UsllKNebHx5zj2txQsc1FfqFB9af2jjRkx4o9oadr6y95_eYqsWVLfCcGwLjQrQnggCESZdygV_t4PF9pGAFqba2WFRP8T5hlc6dOmDe7aZZ8wTGw1YRHM8U_uirJbECJwGyR-IK3TpLp26jATHxcawbAOB-C3WM6UDTlAjcnq7kFYG11yeRj_gf3egY-VCrkXnwLaH7kN1dWgOsW4bF6rCP64acD7zJFj72etlQwhoYtw8DcsVSbMw2y2fqQG17nAVdqDreyYzTcN3UwTIEQ0Bm-Y0sfw%3D&q=Jolin+Tsai&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQs9oBKAJ6BAgjEAQ",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Jolin+Tsai&si=ALGXSlYzFQQn5id74gU-GPAR8UsllKNebHx5zj2txQsc1FfqFB9af2jjRkx4o9oadr6y95_eYqsWVLfCcGwLjQrQnggCESZdygV_t4PF9pGAFqba2WFRP8T5hlc6dOmDe7aZZ8wTGw1YRHM8U_uirJbECJwGyR-IK3TpLp26jATHxcawbAOB-C3WM6UDTlAjcnq7kFYG11yeRj_gf3egY-VCrkXnwLaH7kN1dWgOsW4bF6rCP64acD7zJFj72etlQwhoYtw8DcsVSbMw2y2fqQG17nAVdqDreyYzTcN3UwTIEQ0Bm-Y0sfw%3D",
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3c2c3f8834b7e019c02d188210873d42bfc4c759e0dc04888ce96e1c43f24ba441.jpeg"
+      },
+      {
+        "name": "Vincent Fang",
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&si=ALGXSlYzFQQn5id74gU-GPAR8UsllKNebHx5zj2txQsc1FfqFE9aRkqVtD_zOaIhHIweipqE6-L_TfQZxTBI-w_mfI5NHUK-ycA-xzFr0nfT3fCs6ghHq9u6RVqBep4gQZKCrvGP4uWe-J_u37LurMMleHs9Q7MfqVRLKm5fCgGIYwKKh_7iWy6W49HhvsqlDEmqB93CWnuhQkmYvsuqhPkHlg9KW6obuP3dcjE7xRP216JXL52I1yRRLRwuowdkojXQUpmTN5ZbM4BxMYJuc1KASsXZ0KGVst4_xd7IeBSoHXWTtH62-YE%3D&q=Vincent+Fang&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQs9oBKAN6BAgjEAU",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Vincent+Fang&si=ALGXSlYzFQQn5id74gU-GPAR8UsllKNebHx5zj2txQsc1FfqFE9aRkqVtD_zOaIhHIweipqE6-L_TfQZxTBI-w_mfI5NHUK-ycA-xzFr0nfT3fCs6ghHq9u6RVqBep4gQZKCrvGP4uWe-J_u37LurMMleHs9Q7MfqVRLKm5fCgGIYwKKh_7iWy6W49HhvsqlDEmqB93CWnuhQkmYvsuqhPkHlg9KW6obuP3dcjE7xRP216JXL52I1yRRLRwuowdkojXQUpmTN5ZbM4BxMYJuc1KASsXZ0KGVst4_xd7IeBSoHXWTtH62-YE%3D",
+        "image": "https://serpapi.com/searches/651be854ada54b05998005e5/images/63132b8b9278978cc0cd9b0ccf427a3c2c3f8834b7e019c02d188210873d42bf3586caf6145ce52fc92ae131d4adf83f.jpeg"
+      }
+    ],
+    "people_also_search_for_link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Jay+Chou&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQQjC1BIMzU1LLEyuL_VIrSoJLUguKfzGKBaTmF-SkKiTmFOcrFKcmFiVnKKTlFy1i5fBKrFRwzsgv3cHKeItNkuHAlcwl7kvn1ITYGD_nXBVpdizoGneU5E4jAGw8aiZuAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQ4qYDegQIIxAG",
+    "people_also_search_for_stick": "H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQQjC1BIMzU1LLEyuL_VIrSoJLUguKfzGKBaTmF-SkKiTmFOcrFKcmFiVnKKTlFy1i5fBKrFRwzsgv3cHKeItNkuHAlcwl7kvn1ITYGD_nXBVpdizoGneU5E4jAGw8aiZuAAAA",
+    "movies_and_tv_shows": [
+      {
+        "name": "Secret",
+        "extensions": [
+          "2007"
+        ],
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Bu+Neng+Shuo+De+Mi+Mi&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4gIzy3Kzsyq0VLOTrfQLUvMLclKBVFFxfp5VSZlucUZ-ebFuYl6Kbm5-WWZq8SJWUadSBb_UvHSF4IzSfAWXVAXfTCDawcoIAFDThxdbAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQgOQBegQIcRAE",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Bu+Neng+Shuo+De+Mi+Mi&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4gIzy3Kzsyq0VLOTrfQLUvMLclKBVFFxfp5VSZlucUZ-ebFuYl6Kbm5-WWZq8SJWUadSBb_UvHSF4IzSfAWXVAXfTCDawcoIAFDThxdbAAAA",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe94LXEuBzQ2pqHDbRVZhO_xKYaaRxA2sJqfPO4cuDQDjeby92jZ6MSRnRRME&s=10"
+      },
+      {
+        "name": "The Green Hornet",
+        "extensions": [
+          "2011"
+        ],
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Green+Hornet&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4gIxzbMtikpMtFSzk630C1LzC3JSgVRRcX6eVUmZbnFGfnmxbmJeim5ufllmavEiVh73otTUPAWP_KK81JIdrIwAwE8bT1IAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQgOQBegQIcRAG",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Green+Hornet&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4gIxzbMtikpMtFSzk630C1LzC3JSgVRRcX6eVUmZbnFGfnmxbmJeim5ufllmavEiVh73otTUPAWP_KK81JIdrIwAwE8bT1IAAAA",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQdVDa3EvR_4Jk8EHKgHJc85f0nz9nOwjiooMphjMpXJ6OH0BlKT36y3PyML0&s=10"
+      },
+      {
+        "name": "Initial D",
+        "extensions": [
+          "2005"
+        ],
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Initial+D+(film)&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQAjOTDMqSK7RUs5Ot9AtS8wtyUoFUUXF-nlVJmW5xRn55sW5iXopubn5ZZmrxIlYBz7zMkszEHAUXBY20zJxczR2sjAA400kwVQAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQgOQBegQIcRAI",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Initial+D+%28film%29&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQAjOTDMqSK7RUs5Ot9AtS8wtyUoFUUXF-nlVJmW5xRn55sW5iXopubn5ZZmrxIlYBz7zMkszEHAUXBY20zJxczR2sjAA400kwVQAAAA",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtAHmELWAM5RzZZrNOICuG3j87RyFUy174uwR1zZf_9eGrA-eJs7i3BfDcAkQ&s=10"
+      },
+      {
+        "name": "Sing! China",
+        "extensions": [
+          "2016 – 2023"
+        ],
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Sing!+China&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4tVP1zc0TDYojE_KqTLXUs1OttIvSM0vyEkFUkXF-XlWJWW6xRn55cW6iXkpurn5ZZmpxYtYuYMz89IVFZwzMvMSd7AyAgDWN6CkVAAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQgOQBegQIcRAK",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Sing%21+China&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4tVP1zc0TDYojE_KqTLXUs1OttIvSM0vyEkFUkXF-XlWJWW6xRn55cW6iXkpurn5ZZmpxYtYuYMz89IVFZwzMvMSd7AyAgDWN6CkVAAAAA",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVA4RHqGrMg3ua7yuSP4e5mYdjWmUWgwyw4US6SOAYR-nM-LpacfzGXqBAJFQ&s=10"
+      },
+      {
+        "name": "Kung Fu Dunk",
+        "extensions": [
+          "2008"
+        ],
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Kung+Fu+Dunk&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4gIzzQsLcpO0VLOTrfQLUvMLclKBVFFxfp5VSZlucUZ-ebFuYl6Kbm5-WWZq8SJWHu_SvHQFt1IFl9K87B2sjAAQKLddUgAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQgOQBegQIcRAM",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Kung+Fu+Dunk&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4gIzzQsLcpO0VLOTrfQLUvMLclKBVFFxfp5VSZlucUZ-ebFuYl6Kbm5-WWZq8SJWHu_SvHQFt1IFl9K87B2sjAAQKLddUgAAAA",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPDyqfzlEH6NQj268uwZhqPfZ3apLfwsAP3o0hQ0VYEnkywAFrMSsgRM76vKE&s=10"
+      },
+      {
+        "name": "Curse of the Golden Flower",
+        "extensions": [
+          "2006"
+        ],
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Curse+of+the+Golden+Flower&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQAjNT0iyNcrRUs5Ot9AtS8wtyUoFUUXF-nlVJmW5xRn55sW5iXopubn5ZZmrxIlYp59Ki4lSF_DSFkoxUBff8nJTUPAW3nPzy1KIdrIwATusa018AAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQgOQBegQIcRAO",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Curse+of+the+Golden+Flower&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQAjNT0iyNcrRUs5Ot9AtS8wtyUoFUUXF-nlVJmW5xRn55sW5iXopubn5ZZmrxIlYp59Ki4lSF_DSFkoxUBff8nJTUPAW3nPzy1KIdrIwATusa018AAAA",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUYswOulztyXi7aC22W37V9ksB99TPUXOANjc8cwsI6WkixZGSCX65KbEX4Y8&s=10"
+      },
+      {
+        "name": "Now You See Me 2",
+        "extensions": [
+          "2016"
+        ],
+        "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Now+You+See+Me+2&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4gYxDQ1TspJM47VUs5Ot9AtS8wtyUoFUUXF-nlVJmW5xRn55sW5iXopubn5ZZmrxIlYBv_xyhcj8UoXg1FQF31QFox2sjAC7IurWVwAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQgOQBegQIcRAQ",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Now+You+See+Me+2&stick=H4sIAAAAAAAAAONgFuLUz9U3MMpLyypQ4gYxDQ1TspJM47VUs5Ot9AtS8wtyUoFUUXF-nlVJmW5xRn55sW5iXopubn5ZZmrxIlYBv_xyhcj8UoXg1FQF31QFox2sjAC7IurWVwAAAA",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEQMGT8PymMI9yzjS-bTwqCkjh85JkrRFVEDQbw5P26ioW9TRxiRJLC5YFmZM&s=10"
+      }
+    ]
+  },
+  "inline_videos": [
+    {
+      "position": 1,
+      "title": "周杰倫 JAY CHOU ft. JABBAWOCKEEZ【紅顏如霜Cold ...",
+      "link": "https://www.youtube.com/watch?v=APgx1k-2Tqc",
+      "thumbnail": "https://serpapi.com/searches/651be854ada54b05998005e5/images/aeff5d74e4a63f814c695f8ff4850cc589d5a94619d259f53a57d2cd04832216.jpeg",
+      "channel": "周杰倫 Jay Chou",
+      "platform": "YouTube",
+      "date": "Oct 20, 2022"
+    },
+    {
+      "position": 2,
+      "title": "Jay Chou speaks to Melbourne busker who sang his song ...",
+      "link": "https://www.youtube.com/watch?v=DgJQGof2Ac4",
+      "thumbnail": "https://serpapi.com/searches/651be854ada54b05998005e5/images/aeff5d74e4a63f81690dd7d3f36db789833c4f4646e6e9db7ba20ca7ea94e206.jpeg",
+      "channel": "Mothership",
+      "platform": "YouTube",
+      "date": "Jul 28, 2023"
+    },
+    {
+      "position": 3,
+      "title": "Pop star Jay Chou sues NetEase for 'unfair competition' in ...",
+      "link": "https://www.scmp.com/tech/big-tech/article/3216675/pop-star-jay-chou-sues-netease-giving-away-albums-video-game-promotion-citing-unfair-competition",
+      "thumbnail": "https://serpapi.com/searches/651be854ada54b05998005e5/images/aeff5d74e4a63f81225ba7d0eb25afdf0d5953a17a8adb711d5e7fc68c3b9240.jpeg",
+      "platform": "South China Morning Post",
+      "date": "Apr 11, 2023"
+    }
+  ],
+  "related_questions": [
+    {
+      "question": "What is Jay Chou famous for?",
+      "snippet": "Jay Chou (born January 18, 1979) is a Taiwanese musician, singer-songwriter, music and film producer, actor and director who has won the World Music Award four times. He is well-known for composing all his own songs and songs for other singers.",
+      "title": "Jay Chou News & Biography - Empire",
+      "link": "https://www.empireonline.com/people/jay-chou/#:~:text=Jay%20Chou%20(born%20January%2018,and%20songs%20for%20other%20singers.",
+      "displayed_link": "https://www.empireonline.com › people › jay-chou",
+      "thumbnail": "https://serpapi.com/searches/651be854ada54b05998005e5/images/00eab910838718af7f8375b08e3fbe8ee97f70d6ff8e461516839076ddcfd86e.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJURTl1Y0ZsVlN6bERiekJyZVdKb1gwOVlXV0paYmxaWWRqQXhVa3BMUm5wd1VGOHlWVUZFVld4MVdGZGhabFpyUlZaYU5UY3dVRkpCZGtadmJFNWpkRVJMWVV4WFRFWXhUWEpHRWhkV1QyZGlXbVZEY2sxUGNYZHhkSE5RTUU5TGIydEJieG9pUVVwM2F5MDRaVjl3WkZOT1dWVnBWbWxMYUVKa1UyUlZORE0xVVZsVVkwbFlRUSIsImZjdiI6IjMiLCJlaSI6IlZPZ2JaZUNyTU9xd3F0c1AwT0tva0FvIiwicWMiOiJDZzkzYUc4Z2FYTWdhbUY1SUdOb2IzVVFBSDBuUEJvXyIsInF1ZXN0aW9uIjoiV2hhdCBpcyBKYXkgQ2hvdSBmYW1vdXMgZm9yPyIsImxrIjoiR2h0M2FHRjBJR2x6SUdwaGVTQmphRzkxSUdaaGJXOTFjeUJtYjNJIiwiYnMiOiJjLU5TNUpJSnowZ3NVY2dzVnZCS3JGUnd6c2d2VlVoTHpNMHZMVlpJeXkteWx6aGR3Q1hMSlJHZVVZbWlvamhmb1Nnek9jTmVZbTBkbHlhWENoYnBndnlDMHB6RUlvWE1QS0JRWmw2aXZjUk5WeTR4TGhHUF9IS0ZfSndVWk9YMkFvd0EiLCJpZCI6ImZjXzEifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJURTl1Y0ZsVlN6bERiekJyZVdKb1gwOVlXV0paYmxaWWRqQXhVa3BMUm5wd1VGOHlWVUZFVld4MVdGZGhabFpyUlZaYU5UY3dVRkpCZGtadmJFNWpkRVJMWVV4WFRFWXhUWEpHRWhkV1QyZGlXbVZEY2sxUGNYZHhkSE5RTUU5TGIydEJieG9pUVVwM2F5MDRaVjl3WkZOT1dWVnBWbWxMYUVKa1UyUlZORE0xVVZsVVkwbFlRUSIsImZjdiI6IjMiLCJlaSI6IlZPZ2JaZUNyTU9xd3F0c1AwT0tva0FvIiwicWMiOiJDZzkzYUc4Z2FYTWdhbUY1SUdOb2IzVVFBSDBuUEJvXyIsInF1ZXN0aW9uIjoiV2hhdCBpcyBKYXkgQ2hvdSBmYW1vdXMgZm9yPyIsImxrIjoiR2h0M2FHRjBJR2x6SUdwaGVTQmphRzkxSUdaaGJXOTFjeUJtYjNJIiwiYnMiOiJjLU5TNUpJSnowZ3NVY2dzVnZCS3JGUnd6c2d2VlVoTHpNMHZMVlpJeXkteWx6aGR3Q1hMSlJHZVVZbWlvamhmb1Nnek9jTmVZbTBkbHlhWENoYnBndnlDMHB6RUlvWE1QS0JRWmw2aXZjUk5WeTR4TGhHUF9IS0ZfSndVWk9YMkFvd0EiLCJpZCI6ImZjXzEifQ%3D%3D"
+    },
+    {
+      "question": "Why is Jay Chou so rich?",
+      "snippet": "His wealth mostly came from his music but product endorsements and branding also helped. With his affluence, Chou knows how to pamper himself as well as his family. He currently lives in a mansion at the highest floor of a building in the Daan district of Taipei.",
+      "title": "5 reasons why Jay Chou is the King of Mandopop",
+      "date": "Jul 31, 2020",
+      "link": "https://www.scmp.com/magazines/style/celebrity/article/3095357/5-reasons-why-jay-chou-king-mandopop-taiwanese-superstar#:~:text=His%20wealth%20mostly%20came%20from,endorsements%20and%20branding%20also%20helped.&text=With%20his%20affluence%2C%20Chou%20knows,the%20Daan%20district%20of%20Taipei.",
+      "displayed_link": "https://www.scmp.com › style › celebrity › article › 5-rea...",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuau8soiE9cMT3QwidHbM83_ViMnZXwiaoM98vDEUa5Sco8RDyfeeANXjd5Q&s",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJURTl1Y0ZsVlN6bERiekJyZVdKb1gwOVlXV0paYmxaWWRqQXhVa3BMUm5wd1VGOHlWVUZFVld4MVdGZGhabFpyUlZaYU5UY3dVRkpCZGtadmJFNWpkRVJMWVV4WFRFWXhUWEpHRWhkV1QyZGlXbVZEY2sxUGNYZHhkSE5RTUU5TGIydEJieG9pUVVwM2F5MDRaVjl3WkZOT1dWVnBWbWxMYUVKa1UyUlZORE0xVVZsVVkwbFlRUSIsImZjdiI6IjMiLCJlaSI6IlZPZ2JaZUNyTU9xd3F0c1AwT0tva0FvIiwicWMiOiJDZzkzYUc4Z2FYTWdhbUY1SUdOb2IzVVFBSDBuUEJvXyIsInF1ZXN0aW9uIjoiV2h5IGlzIEpheSBDaG91IHNvIHJpY2g/IiwibGsiOiJHaGQzYUhrZ2FYTWdhbUY1SUdOb2IzVWdjMjhnY21samFBIiwiYnMiOiJjLU5TNUpJSnowZ3NVY2dzVnZCS3JGUnd6c2d2VlVoTHpNMHZMVlpJeXkteWx6aGR3Q1hMSlJHZVVZbWlvamhmb1Nnek9jTmVZbTBkbHlhWENoYnBndnlDMHB6RUlvWE1QS0JRWmw2aXZjUk5WeTR4TGhHUF9IS0ZfSndVWk9YMkFvd0EiLCJpZCI6ImZjXzEifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJURTl1Y0ZsVlN6bERiekJyZVdKb1gwOVlXV0paYmxaWWRqQXhVa3BMUm5wd1VGOHlWVUZFVld4MVdGZGhabFpyUlZaYU5UY3dVRkpCZGtadmJFNWpkRVJMWVV4WFRFWXhUWEpHRWhkV1QyZGlXbVZEY2sxUGNYZHhkSE5RTUU5TGIydEJieG9pUVVwM2F5MDRaVjl3WkZOT1dWVnBWbWxMYUVKa1UyUlZORE0xVVZsVVkwbFlRUSIsImZjdiI6IjMiLCJlaSI6IlZPZ2JaZUNyTU9xd3F0c1AwT0tva0FvIiwicWMiOiJDZzkzYUc4Z2FYTWdhbUY1SUdOb2IzVVFBSDBuUEJvXyIsInF1ZXN0aW9uIjoiV2h5IGlzIEpheSBDaG91IHNvIHJpY2g%2FIiwibGsiOiJHaGQzYUhrZ2FYTWdhbUY1SUdOb2IzVWdjMjhnY21samFBIiwiYnMiOiJjLU5TNUpJSnowZ3NVY2dzVnZCS3JGUnd6c2d2VlVoTHpNMHZMVlpJeXkteWx6aGR3Q1hMSlJHZVVZbWlvamhmb1Nnek9jTmVZbTBkbHlhWENoYnBndnlDMHB6RUlvWE1QS0JRWmw2aXZjUk5WeTR4TGhHUF9IS0ZfSndVWk9YMkFvd0EiLCJpZCI6ImZjXzEifQ%3D%3D"
+    },
+    {
+      "question": "Why is Jay Chou so popular in China?",
+      "snippet": "He writes many songs and composes all his own songs. His influence in Chinese music is so huge. Chinese music wouldn't be the same without him. His poetic lyrics, unique music compositions and his ability to play numerous instruments set him apart from other Chinese singers.",
+      "title": "Why is Jay Chou so popular? - Quora",
+      "link": "https://www.quora.com/Why-is-Jay-Chou-so-popular#:~:text=He%20writes%20many%20songs%20and,apart%20from%20other%20Chinese%20singers.",
+      "displayed_link": "https://www.quora.com › Why-is-Jay-Chou-so-popular",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlrdeHq9i1ez6HfOXCVMLEya3TZr2kTqfah4VI1REV&s",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJURTl1Y0ZsVlN6bERiekJyZVdKb1gwOVlXV0paYmxaWWRqQXhVa3BMUm5wd1VGOHlWVUZFVld4MVdGZGhabFpyUlZaYU5UY3dVRkpCZGtadmJFNWpkRVJMWVV4WFRFWXhUWEpHRWhkV1QyZGlXbVZEY2sxUGNYZHhkSE5RTUU5TGIydEJieG9pUVVwM2F5MDRaVjl3WkZOT1dWVnBWbWxMYUVKa1UyUlZORE0xVVZsVVkwbFlRUSIsImZjdiI6IjMiLCJlaSI6IlZPZ2JaZUNyTU9xd3F0c1AwT0tva0FvIiwicWMiOiJDZzkzYUc4Z2FYTWdhbUY1SUdOb2IzVVFBSDBuUEJvXyIsInF1ZXN0aW9uIjoiV2h5IGlzIEpheSBDaG91IHNvIHBvcHVsYXIgaW4gQ2hpbmE/IiwibGsiOiJHaU4zYUhrZ2FYTWdhbUY1SUdOb2IzVWdjMjhnY0c5d2RXeGhjaUJwYmlCamFHbHVZUSIsImJzIjoiYy1OUzVKSUp6MGdzVWNnc1Z2QktyRlJ3enNndlZVaEx6TTB2TFZaSXl5LXlsemhkd0NYTEpSR2VVWW1pb2poZm9TZ3pPY05lWW0wZGx5YVhDaGJwZ3Z5QzBwekVJb1hNUEtCUVpsNml2Y1JOVnk0eExoR1BfSEtGX0p3VVpPWDJBb3dBIiwiaWQiOiJmY18xIn0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJURTl1Y0ZsVlN6bERiekJyZVdKb1gwOVlXV0paYmxaWWRqQXhVa3BMUm5wd1VGOHlWVUZFVld4MVdGZGhabFpyUlZaYU5UY3dVRkpCZGtadmJFNWpkRVJMWVV4WFRFWXhUWEpHRWhkV1QyZGlXbVZEY2sxUGNYZHhkSE5RTUU5TGIydEJieG9pUVVwM2F5MDRaVjl3WkZOT1dWVnBWbWxMYUVKa1UyUlZORE0xVVZsVVkwbFlRUSIsImZjdiI6IjMiLCJlaSI6IlZPZ2JaZUNyTU9xd3F0c1AwT0tva0FvIiwicWMiOiJDZzkzYUc4Z2FYTWdhbUY1SUdOb2IzVVFBSDBuUEJvXyIsInF1ZXN0aW9uIjoiV2h5IGlzIEpheSBDaG91IHNvIHBvcHVsYXIgaW4gQ2hpbmE%2FIiwibGsiOiJHaU4zYUhrZ2FYTWdhbUY1SUdOb2IzVWdjMjhnY0c5d2RXeGhjaUJwYmlCamFHbHVZUSIsImJzIjoiYy1OUzVKSUp6MGdzVWNnc1Z2QktyRlJ3enNndlZVaEx6TTB2TFZaSXl5LXlsemhkd0NYTEpSR2VVWW1pb2poZm9TZ3pPY05lWW0wZGx5YVhDaGJwZ3Z5QzBwekVJb1hNUEtCUVpsNml2Y1JOVnk0eExoR1BfSEtGX0p3VVpPWDJBb3dBIiwiaWQiOiJmY18xIn0%3D"
+    },
+    {
+      "question": "How old is Jay Chou?",
+      "title": "44 years (January 18, 1979)",
+      "info": "Jay Chou / Age",
+      "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=How+old+is+Jay+Chou%3F&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQzmd6BAhWEAY",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0gMddA7tLSF_UaACU3gXdGJSOCqDFHXO9KPf5Fe_7KbJn3xkHsCy_&s=0",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJURTl1Y0ZsVlN6bERiekJyZVdKb1gwOVlXV0paYmxaWWRqQXhVa3BMUm5wd1VGOHlWVUZFVld4MVdGZGhabFpyUlZaYU5UY3dVRkpCZGtadmJFNWpkRVJMWVV4WFRFWXhUWEpHRWhkV1QyZGlXbVZEY2sxUGNYZHhkSE5RTUU5TGIydEJieG9pUVVwM2F5MDRaVjl3WkZOT1dWVnBWbWxMYUVKa1UyUlZORE0xVVZsVVkwbFlRUSIsImZjdiI6IjMiLCJlaSI6IlZPZ2JaZUNyTU9xd3F0c1AwT0tva0FvIiwicWMiOiJDZzkzYUc4Z2FYTWdhbUY1SUdOb2IzVVFBSDBuUEJvXyIsInF1ZXN0aW9uIjoiSG93IG9sZCBpcyBKYXkgQ2hvdT8iLCJsayI6IkdoTm9iM2NnYjJ4a0lHbHpJR3BoZVNCamFHOTEiLCJicyI6ImMtTlM1SklKejBnc1VjZ3NWdkJLckZSd3pzZ3ZWVWhMek0wdkxWWkl5eS15bHpoZHdDWExKUkdlVVltaW9qaGZvU2d6T2NOZVltMGRseWFYQ2hicGd2eUMwcHpFSW9YTVBLQlFabDZpdmNSTlZ5NHhMaEdQX0hLRl9Kd1VaT1gyQW93QSIsImlkIjoiZmNfMSJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJURTl1Y0ZsVlN6bERiekJyZVdKb1gwOVlXV0paYmxaWWRqQXhVa3BMUm5wd1VGOHlWVUZFVld4MVdGZGhabFpyUlZaYU5UY3dVRkpCZGtadmJFNWpkRVJMWVV4WFRFWXhUWEpHRWhkV1QyZGlXbVZEY2sxUGNYZHhkSE5RTUU5TGIydEJieG9pUVVwM2F5MDRaVjl3WkZOT1dWVnBWbWxMYUVKa1UyUlZORE0xVVZsVVkwbFlRUSIsImZjdiI6IjMiLCJlaSI6IlZPZ2JaZUNyTU9xd3F0c1AwT0tva0FvIiwicWMiOiJDZzkzYUc4Z2FYTWdhbUY1SUdOb2IzVVFBSDBuUEJvXyIsInF1ZXN0aW9uIjoiSG93IG9sZCBpcyBKYXkgQ2hvdT8iLCJsayI6IkdoTm9iM2NnYjJ4a0lHbHpJR3BoZVNCamFHOTEiLCJicyI6ImMtTlM1SklKejBnc1VjZ3NWdkJLckZSd3pzZ3ZWVWhMek0wdkxWWkl5eS15bHpoZHdDWExKUkdlVVltaW9qaGZvU2d6T2NOZVltMGRseWFYQ2hicGd2eUMwcHpFSW9YTVBLQlFabDZpdmNSTlZ5NHhMaEdQX0hLRl9Kd1VaT1gyQW93QSIsImlkIjoiZmNfMSJ9"
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Jay Chou",
+      "link": "https://en.wikipedia.org/wiki/Jay_Chou",
+      "displayed_link": "https://en.wikipedia.org › wiki › Jay_Chou",
+      "thumbnail": "https://serpapi.com/searches/651be854ada54b05998005e5/images/39ca0deca435ca53ba0ccd85524d80e77d3db21a34e5059abc1b50147c7dcbe6.jpeg",
+      "favicon": "https://serpapi.com/searches/651be854ada54b05998005e5/images/39ca0deca435ca53ba0ccd85524d80e72abd021a73a1114fd9de8243cae90d95.png",
+      "snippet": "As a businessman, Chou has served as the President of his own fashion brand PHANTACi since 2006 and was a founding member of his own talent agency, JVR Music in ...",
+      "snippet_highlighted_words": [
+        "the President of his own fashion brand PHANTACi"
+      ],
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "Bedtime Stories",
+            "link": "https://en.wikipedia.org/wiki/Jay_Chou%27s_Bedtime_Stories"
+          },
+          {
+            "title": "Jay Chou discography",
+            "link": "https://en.wikipedia.org/wiki/Jay_Chou_discography"
+          },
+          {
+            "title": "List of songs recorded by Jay...",
+            "link": "https://en.wikipedia.org/wiki/List_of_songs_recorded_by_Jay_Chou"
+          },
+          {
+            "title": "Will Liu",
+            "link": "https://en.wikipedia.org/wiki/Will_Liu"
+          }
+        ]
+      },
+      "about_this_result": {
+      },
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:UJI3Yzlte9MJ:https://en.wikipedia.org/wiki/Jay_Chou&cd=29&hl=en&ct=clnk&gl=us",
+      "related_pages_link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=related:https://en.wikipedia.org/wiki/Jay_Chou+Who+is+Jay+Chou",
+      "source": "Wikipedia"
+    },
+    {
+      "position": 2,
+      "title": "Jay Chou News & Biography - Empire",
+      "link": "https://www.empireonline.com/people/jay-chou/",
+      "displayed_link": "https://www.empireonline.com › people › jay-chou",
+      "favicon": "https://serpapi.com/searches/651be854ada54b05998005e5/images/39ca0deca435ca53ba0ccd85524d80e708d3eb4056f0c3289da14b0f3f50622c.png",
+      "snippet": "Jay Chou (born January 18, 1979) is a Taiwanese musician, singer-songwriter, music and film producer, actor and director who has won the World Music Award four ...",
+      "snippet_highlighted_words": [
+        "a Taiwanese musician, singer-songwriter, music and film producer, actor and director"
+      ],
+      "about_this_result": {
+      },
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:3z86RfbeHZ0J:https://www.empireonline.com/people/jay-chou/&cd=33&hl=en&ct=clnk&gl=us",
+      "source": "empireonline.com"
+    },
+    {
+      "position": 3,
+      "title": "Jay Chou 周杰倫 (@jaychou)",
+      "link": "https://www.instagram.com/jaychou/?hl=en",
+      "displayed_link": "https://www.instagram.com › jaychou",
+      "favicon": "https://serpapi.com/searches/651be854ada54b05998005e5/images/39ca0deca435ca53ba0ccd85524d80e74ba2ace62358ed8286e688c8f054557b.png",
+      "snippet": "8M Followers, 125 Following, 1073 Posts - See Instagram photos and videos from Jay Chou 周杰倫(@jaychou)",
+      "snippet_highlighted_words": [
+        "Jay Chou",
+        "jaychou"
+      ],
+      "about_this_result": {
+      },
+      "cached_page_link": "/search?sca_esv=570303733&gl=us&hl=en&q=related:https://www.instagram.com/jaychou/%3Fhl%3Den+Who+is+Jay+Chou",
+      "source": "Instagram"
+    },
+    {
+      "position": 4,
+      "title": "Jay Chou Biography, Songs, & Albums",
+      "link": "https://www.allmusic.com/artist/jay-chou-mn0000520385/biography",
+      "displayed_link": "https://www.allmusic.com › jay-chou-mn0000520385",
+      "favicon": "https://serpapi.com/searches/651be854ada54b05998005e5/images/39ca0deca435ca53ba0ccd85524d80e78bcc9dce891f7a25ea4e2f7b8cd30470.jpeg",
+      "snippet": "Influential Taiwanese multi-hyphenate artist who revolutionized Mandopop with his blend of genres and distinctive vocal delivery. Read Full Biography ...",
+      "snippet_highlighted_words": [
+        "Influential Taiwanese multi-hyphenate artist"
+      ],
+      "about_this_result": {
+      },
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:0DnkC_6dJeYJ:https://www.allmusic.com/artist/jay-chou-mn0000520385/biography&cd=35&hl=en&ct=clnk&gl=us",
+      "source": "AllMusic"
+    },
+    {
+      "position": 5,
+      "title": "Who is Jay Chou?",
+      "link": "https://www.quora.com/Who-is-Jay-Chou",
+      "displayed_link": "https://www.quora.com › Who-is-Jay-Chou",
+      "favicon": "https://serpapi.com/searches/651be854ada54b05998005e5/images/39ca0deca435ca53ba0ccd85524d80e7f1db9b9c220186e33ca791ddd207779e.png",
+      "date": "Aug 30, 2014",
+      "snippet": "Jay Chou，the King of Asian Pop （ 2000-2015），has written hundreds of unparalleled hits, won 15 seat Golden Melody Award (Chinese Grammy) and top the Forbes ...",
+      "snippet_highlighted_words": [
+        "Chou，the King of Asian Pop （ 2000-2015），has"
+      ],
+      "sitelinks": {
+        "list": [
+          {
+            "title": "Is Jay Chou famous in America?",
+            "link": "https://www.quora.com/Is-Jay-Chou-famous-in-America",
+            "answer_count": 4,
+            "date": "Mar 16, 2015"
+          },
+          {
+            "title": "Are you familiar with the Chinese singer Jay Chou?",
+            "link": "https://www.quora.com/Are-you-familiar-with-the-Chinese-singer-Jay-Chou",
+            "answer_count": 5,
+            "date": "Apr 3, 2015"
+          },
+          {
+            "title": "Why is Jay Chou so popular?",
+            "link": "https://www.quora.com/Why-is-Jay-Chou-so-popular",
+            "answer_count": 4,
+            "date": "Aug 6, 2017"
+          }
+        ]
+      },
+      "about_this_result": {
+      },
+      "cached_page_link": "/search?sca_esv=570303733&gl=us&hl=en&q=related:https://www.quora.com/Who-is-Jay-Chou+Who+is+Jay+Chou",
+      "source": "Quora"
+    },
+    {
+      "position": 6,
+      "title": "Jay Chou",
+      "link": "https://www.imdb.com/name/nm1727100/",
+      "displayed_link": "https://www.imdb.com › name",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0Y5y52of9I2oWIQnrebVyrxnEWprdKu8lv6GXNoVeb9VGEoF88VES&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/651be854ada54b05998005e5/images/39ca0deca435ca53ba0ccd85524d80e7c29e8cb38bcb0939f096af306b501b82.png",
+      "snippet": "Jay Chou is a Taiwanese musician, singer-songwriter, multi-instrumentalist, actor and director. He was born in Taipei to schoolteachers, Yeh Hui-Mei, ...",
+      "snippet_highlighted_words": [
+        "a Taiwanese musician, singer-songwriter, multi-instrumentalist, actor and director"
+      ],
+      "about_this_result": {
+      },
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:qXnETqSvvGEJ:https://www.imdb.com/name/nm1727100/&cd=39&hl=en&ct=clnk&gl=us",
+      "source": "IMDb"
+    },
+    {
+      "position": 7,
+      "title": "'I would like to be a cultural leader': Jay Chou, the 'King of ...",
+      "link": "https://www.scmp.com/lifestyle/entertainment/article/3220140/jay-chou-king-mandopop-talks-about-music-his-love-fine-art-his-world-tour-and-why-hes-not-worried",
+      "displayed_link": "https://www.scmp.com › Lifestyle › Entertainment",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaWLAS6KMv_DH8Zps9JWKy3xjB_7fI7Q7XOrN3oDAt6QZA-aD7ucuP&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/651be854ada54b05998005e5/images/39ca0deca435ca53ba0ccd85524d80e76d937c09278bbc27b580714b0d54ed61.png",
+      "date": "May 11, 2023",
+      "snippet": "Taiwanese pop star Jay Chou, in Hong Kong for a series of concerts as part of his world tour, talks to the Post about his love of fine art ...",
+      "snippet_highlighted_words": [
+        "Taiwanese pop star"
+      ],
+      "about_this_result": {
+      },
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:ThJ3Hxaco7sJ:https://www.scmp.com/lifestyle/entertainment/article/3220140/jay-chou-king-mandopop-talks-about-music-his-love-fine-art-his-world-tour-and-why-hes-not-worried&cd=40&hl=en&ct=clnk&gl=us",
+      "source": "South China Morning Post"
+    },
+    {
+      "position": 8,
+      "title": "Jay Chou's mum is about to make US$54 million off her ...",
+      "link": "https://www.scmp.com/magazines/style/celebrity/article/3227520/jay-chous-mum-about-make-us54-million-her-son-heres-how-her-company-owns-taiwanese-mandopop-stars",
+      "displayed_link": "https://www.scmp.com › Magazines › Style › Celebrities",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnCycciXQRboD3MzCSVeo_C1EWZHAA23k4M-3SBgirGuPX3CAGebVv&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/651be854ada54b05998005e5/images/39ca0deca435ca53ba0ccd85524d80e71990971beaa0b7c92a47b53cf5bcaec4.png",
+      "date": "Jul 13, 2023",
+      "snippet": "Dubbed the “King of Asian Pop”, Chou made his debut in Taiwan in 2000 with his namesake album Jay Chou. His music became an instant hit ...",
+      "snippet_highlighted_words": [
+        "the “King of Asian Pop”"
+      ],
+      "about_this_result": {
+      },
+      "source": "South China Morning Post"
+    },
+    {
+      "position": 9,
+      "title": "周杰倫 Jay Chou",
+      "link": "https://www.youtube.com/@jaychou/about",
+      "displayed_link": "https://www.youtube.com › @jaychou › about",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsvP1e89j-5Qu-RxnHB4oCllFlaq6Z8m5__Xi_zv2ZGPIUW6fISeYr&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/651be854ada54b05998005e5/images/39ca0deca435ca53ba0ccd85524d80e775396ed4600fef9feb7620f9c1fc4184.png",
+      "snippet": "Description Jay Chou 周杰倫 “New King of Asian Pop” — Time magazine (2003) “One of the most inﬂuential ﬁgures in Asia”— CNN (2009) Music Career -Iconic ...",
+      "snippet_highlighted_words": [
+        "“New King of Asian Pop”"
+      ],
+      "about_this_result": {
+      },
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Slda6YBMi2sJ:https://www.youtube.com/%40jaychou/about&cd=42&hl=en&ct=clnk&gl=us",
+      "source": "YouTube"
+    },
+    {
+      "position": 10,
+      "title": "Jay Chou - Biography",
+      "link": "https://www.imdb.com/name/nm1727100/bio/",
+      "displayed_link": "https://www.imdb.com › name › bio",
+      "favicon": "https://serpapi.com/searches/651be854ada54b05998005e5/images/39ca0deca435ca53ba0ccd85524d80e7937f783dad2849e3ebd6cad146bf257b.png",
+      "snippet": "Jay Chou is a Taiwanese musician, singer-songwriter, multi-instrumentalist, actor and director. He was born in Taipei to schoolteachers, Yeh Hui-Mei, ...",
+      "snippet_highlighted_words": [
+        "a Taiwanese musician, singer-songwriter, multi-instrumentalist, actor and director"
+      ],
+      "about_this_result": {
+      },
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:T30OyL2BS3QJ:https://www.imdb.com/name/nm1727100/bio/&cd=43&hl=en&ct=clnk&gl=us",
+      "source": "IMDb"
+    }
+  ],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "Jay Chou young",
+      "items": [
+        {
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZtT4618p9GMmJCkoJbbvmjbD2O634CCy9-z8v2609k0e4f-huKgI3DA&s=0",
+          "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Jay+Chou+young&tbm=isch&source=iu&ictx=1&vet=1#imgrc=r8TMsHOquyGq_M",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_images&gl=us&google_domain=google.com&hl=en&q=Jay+Chou+young"
+        },
+        {
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM6wPUBZi_ar1jfHY9iZIXj_6ID4hBbtfrlj2_R26uwKQ_EN8ueZY&s=0",
+          "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Jay+Chou+young&tbm=isch&source=iu&ictx=1&vet=1#imgrc=FCJS6-4H4TBI_M",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_images&gl=us&google_domain=google.com&hl=en&q=Jay+Chou+young"
+        },
+        {
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjbslc4fyb5dy-GxAwAcsk3IUJFkMKewZKT0CdD0v1HXPujlAUdaQ&s=0",
+          "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Jay+Chou+young&tbm=isch&source=iu&ictx=1&vet=1#imgrc=LXVuUU4MF0wbZM",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_images&gl=us&google_domain=google.com&hl=en&q=Jay+Chou+young"
+        },
+        {
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH7fzMEq_SXVwdfq3QxyFT_vOr3cDSORCZSsrRRcB8dnm3CZ25HCs&s=0",
+          "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Jay+Chou+young&tbm=isch&source=iu&ictx=1&vet=1#imgrc=C0YtZHYOQI8RoM",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_images&gl=us&google_domain=google.com&hl=en&q=Jay+Chou+young"
+        }
+      ],
+      "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Jay+Chou+young&tbm=isch&source=iu&ictx=1&vet=1#imgrc=r8TMsHOquyGq_M",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_images&gl=us&google_domain=google.com&hl=en&q=Jay+Chou+young"
+    },
+    {
+      "block_position": 1,
+      "query": "Taiwanese singers",
+      "items": [
+        {
+          "name": "Jolin Tsai",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz9sCn0m0tf_Q26dpAWQWk7hUx9qST3c9b-t3qWQNAgVZp7MvKnCjJ&s=0",
+          "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Jolin+Tsai&stick=H4sIAAAAAAAAAOOQUeLSz9U3MMxON83JMhIsScwsT8xLLU5VKM7MS08tKo7iD8_IV8gsVvBKrFRwzsgvPcWIpAHKMUlLMa7KPsXIq5-ub2iYZFZSkWVpUghTWVhmaRCPkCwoKMmKL4BJllekpFVAOcmVBWXlBlBOuqlxgRlQhhPESaqyNK-EG2FhYGJUUWzwi1EwBN25i1i5vPJzMvMUQooTM2-xSTIcuJK5hNmLQUHY1ehZfFpgxzm3zae8_95iAAC1jGHy-QAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQs9oBKAB6BAh8EAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Jolin+Tsai&stick=H4sIAAAAAAAAAOOQUeLSz9U3MMxON83JMhIsScwsT8xLLU5VKM7MS08tKo7iD8_IV8gsVvBKrFRwzsgvPcWIpAHKMUlLMa7KPsXIq5-ub2iYZFZSkWVpUghTWVhmaRCPkCwoKMmKL4BJllekpFVAOcmVBWXlBlBOuqlxgRlQhhPESaqyNK-EG2FhYGJUUWzwi1EwBN25i1i5vPJzMvMUQooTM2-xSTIcuJK5hNmLQUHY1ehZfFpgxzm3zae8_95iAAC1jGHy-QAAAA"
+        },
+        {
+          "name": "Jam Hsiao",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDl71MwwlPxBPXpEsBF7m-5U9XfTySikkuEpIuPdgI97BvLzrQhTdh&s=0",
+          "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Jam+Hsiao&stick=H4sIAAAAAAAAAOOQUeLSz9U3MElLMa7KNhIsScwsT8xLLU5VKM7MS08tKo7iD8_IV8gsVvBKrFRwzsgvPcUI1mCYnW6akwXlQHSfYuTVT9c3NEwyK6nIsjQphKksLLM0iEdIFhSUZMUXwCTLK1LSKqCc5MqCsnIDKCfd1LjADCjDCeIkVVmaV8KNsDAwMaooNvjFKBiC7txFrJxeibkKHsWZifm32CQZDlzJXMLsxaAg7Gr0LD4tsOOc2-ZT3n9vMQAAgKuCivgAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQs9oBKAF6BAh8EAM",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Jam+Hsiao&stick=H4sIAAAAAAAAAOOQUeLSz9U3MElLMa7KNhIsScwsT8xLLU5VKM7MS08tKo7iD8_IV8gsVvBKrFRwzsgvPcUI1mCYnW6akwXlQHSfYuTVT9c3NEwyK6nIsjQphKksLLM0iEdIFhSUZMUXwCTLK1LSKqCc5MqCsnIDKCfd1LjADCjDCeIkVVmaV8KNsDAwMaooNvjFKBiC7txFrJxeibkKHsWZifm32CQZDlzJXMLsxaAg7Gr0LD4tsOOc2-ZT3n9vMQAAgKuCivgAAAA"
+        },
+        {
+          "name": "Eric Chou",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE7Apu16RJ1HX4GxGjyJAY4JF0p_DjULlPJqFKtKC09nXHaTeFeT4l&s=0",
+          "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Eric+Chou&stick=H4sIAAAAAAAAAOOQUeLVT9c3NEwyK6nIsjQpNBIsScwsT8xLLU5VKM7MS08tKo7iD8_IV8gsVvBKrFRwzsgvPcXIpZ-rb2CYnW6akwXlmKSlGFdln2JENQ2msrDM0iAeIVlQUJIVXwCTLK9ISauAcpIrC8rKDaCcdFPjAjOgDCeIk1RlaV4JN8LCwMSootjgF6NgCLpzF7FyuhZlJoNdeotNkuHAlcwlzF4MCsKuRs_i0wI7zrltPuX99xYDAJLKXRT7AAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQs9oBKAJ6BAh8EAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Eric+Chou&stick=H4sIAAAAAAAAAOOQUeLVT9c3NEwyK6nIsjQpNBIsScwsT8xLLU5VKM7MS08tKo7iD8_IV8gsVvBKrFRwzsgvPcXIpZ-rb2CYnW6akwXlmKSlGFdln2JENQ2msrDM0iAeIVlQUJIVXwCTLK9ISauAcpIrC8rKDaCcdFPjAjOgDCeIk1RlaV4JN8LCwMSootjgF6NgCLpzF7FyuhZlJoNdeotNkuHAlcwlzF4MCsKuRs_i0wI7zrltPuX99xYDAJLKXRT7AAAA"
+        },
+        {
+          "name": "Angela Chang",
+          "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRPKI3sgdkmbygcIv45MVYVsMBKfbk1JEVdN8m7pLWsCWVNnc8BVv5Y5QhUyfIpmLs304d7i28&s=19",
+          "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Angela+Chang&stick=H4sIAAAAAAAAAOOQUeLSz9U3MCwsszSINxIsScwsT8xLLU5VKM7MS08tKo7iD8_IV8gsVvBKrFRwzsgvPcUI0ZCdbpqTBeWYpKUYV2WfYuTVT9c3NEwyK6nIsjQphKkEG42QLCgoyYovgEmWV6SkVUA5yZUFZeUGUE66qXGBGVCGE8RJqrI0r4QbYWFgYlRRbPCLUTAE3bmLWHkcgYycRKBbE_PSb7FJMhy4krmE2YtBQdjV6Fl8WmDHObfNp7z_3mIAAHQ9s_f7AAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQs9oBKAN6BAh8EAU",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Angela+Chang&stick=H4sIAAAAAAAAAOOQUeLSz9U3MCwsszSINxIsScwsT8xLLU5VKM7MS08tKo7iD8_IV8gsVvBKrFRwzsgvPcUI0ZCdbpqTBeWYpKUYV2WfYuTVT9c3NEwyK6nIsjQphKkEG42QLCgoyYovgEmWV6SkVUA5yZUFZeUGUE66qXGBGVCGE8RJqrI0r4QbYWFgYlRRbPCLUTAE3bmLWHkcgYycRKBbE_PSb7FJMhy4krmE2YtBQdjV6Fl8WmDHObfNp7z_3mIAAHQ9s_f7AAAA"
+        },
+        {
+          "name": "Marcus Chang",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0dXWWcdhwkKo9WyVLD8irPF2I2-0JT44OJNomJPjYJP6CrcdCoJ_2&s=0",
+          "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Marcus+Chang&stick=H4sIAAAAAAAAAOOQUeLVT9c3NEwyKygoyYovMBIsScwsT8xLLU5VKM7MS08tKo7iD8_IV8gsVvBKrFRwzsgvPcXIpZ-rb2CYnW6akwXlmKSlGFdln2KEmVZSkWVpUghTWVhmaRCPkIRYBZMsr0hJq4BykisLysoNoJx0U-MCM6AMJ4iTVGVpXgk3wsLAxKii2OAXo2AIunMXsfL4JhYllxYD3ZqYl36LTZLhwJXMJcxeDArCrkbP4tMCO865bT7l_fcWAwAIDyVR_gAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQs9oBKAR6BAh8EAY",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Marcus+Chang&stick=H4sIAAAAAAAAAOOQUeLVT9c3NEwyKygoyYovMBIsScwsT8xLLU5VKM7MS08tKo7iD8_IV8gsVvBKrFRwzsgvPcXIpZ-rb2CYnW6akwXlmKSlGFdln2KEmVZSkWVpUghTWVhmaRCPkIRYBZMsr0hJq4BykisLysoNoJx0U-MCM6AMJ4iTVGVpXgk3wsLAxKii2OAXo2AIunMXsfL4JhYllxYD3ZqYl36LTZLhwJXMJcxeDArCrkbP4tMCO865bT7l_fcWAwAIDyVR_gAAAA"
+        },
+        {
+          "name": "Zhao Chuan",
+          "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTY_uDLfz6S-dJ-ICPZq14h_4ukSQgxGve6mqA8BQo8l-fhn87evylMZtvnEmwFiVSyXPncJe6q&s=19",
+          "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Zhao+Chuan&stick=H4sIAAAAAAAAAOOQUeLSz9U3MCyvSEmrMBIsScwsT8xLLU5VKM7MS08tKo7iD8_IV8gsVvBKrFRwzsgvPcUI0ZCdbpqTBeWYpKUYV2WfYuTVT9c3NEwyK6nIsjQphKksLLM0iEdIFhSUZMUXwCTB9kI5yZUFZeUGUE66qXGBGVCGE8RJqrI0r4QbYWFgYlRRbPCLUTAE3bmLWLmiMhLzgS4tTcy7xSbJcOBK5hJmLwYFYVejZ_FpgR3n3Daf8v57iwEA4MUZx_kAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQs9oBKAV6BAh8EAc",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Zhao+Chuan&stick=H4sIAAAAAAAAAOOQUeLSz9U3MCyvSEmrMBIsScwsT8xLLU5VKM7MS08tKo7iD8_IV8gsVvBKrFRwzsgvPcUI0ZCdbpqTBeWYpKUYV2WfYuTVT9c3NEwyK6nIsjQphKksLLM0iEdIFhSUZMUXwCTB9kI5yZUFZeUGUE66qXGBGVCGE8RJqrI0r4QbYWFgYlRRbPCLUTAE3bmLWLmiMhLzgS4tTcy7xSbJcOBK5hJmLwYFYVejZ_FpgR3n3Daf8v57iwEA4MUZx_kAAAA"
+        }
+      ],
+      "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Taiwanese+singers&stick=H4sIAAAAAAAAAOOQMRIsScwsT8xLLU5VKM7MS08tKo7iD8_IV8gsVvBKrFRwzsgvPcXIpZ-rb2CYnW6akwXlmKSlGFdln2Lk1U_XNzRMMiupyLI0KYSpLCyzNIhHSBYUlGTFF8AkyytS0iqgnOTKgrJyAygn3dS4wAwowwniJFVZmlfCjbAwMDGqKDb4xSgYgu7cRayYYrfYJBkOXMlcwuzFoCDsavQsPi2w45zb5lPef28xAADlV6Zw9AAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQ4qYDegQIfBAI",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Taiwanese+singers&stick=H4sIAAAAAAAAAOOQMRIsScwsT8xLLU5VKM7MS08tKo7iD8_IV8gsVvBKrFRwzsgvPcXIpZ-rb2CYnW6akwXlmKSlGFdln2Lk1U_XNzRMMiupyLI0KYSpLCyzNIhHSBYUlGTFF8AkyytS0iqgnOTKgrJyAygn3dS4wAwowwniJFVZmlfCjbAwMDGqKDb4xSgYgu7cRayYYrfYJBkOXMlcwuzFoCDsavQsPi2w45zb5lPef28xAADlV6Zw9AAAAA"
+    },
+    {
+      "block_position": 1,
+      "query": "Chinese pop stars",
+      "items": [
+        {
+          "name": "G.E.M.",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvQiHU7YfBlhPHCiVZNGCsJsncaFT11CIW7yXdHwNuy28zINMHwCDY&s=0",
+          "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=GEM+Tang&stick=H4sIAAAAAAAAAOOQUeLSz9U3ME0ytDTPMBJMzsjMSy1OVSjIL1AoLkksKo7iD8_IV8gsVvBKrFRwzsgvPcUI1mCYnW6akwXlQHSfYuTVT9c3NEyzLEspyE7LPsXICZI0sqwoMoPJZaSVG-UkZ6RBNZYVlFiaJkEVmheZZmTA2LkZRfFQRTmmhuZVeVAJwyLDrIpfjILO6A5dxMrh7uqrEJKYl36LTZLhwJXMJb__9sj9O32A7-rfQ7UmD29zuz2ezAwAJc0nC_EAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQs9oBKAB6BAh9EAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=GEM+Tang&stick=H4sIAAAAAAAAAOOQUeLSz9U3ME0ytDTPMBJMzsjMSy1OVSjIL1AoLkksKo7iD8_IV8gsVvBKrFRwzsgvPcUI1mCYnW6akwXlQHSfYuTVT9c3NEyzLEspyE7LPsXICZI0sqwoMoPJZaSVG-UkZ6RBNZYVlFiaJkEVmheZZmTA2LkZRfFQRTmmhuZVeVAJwyLDrIpfjILO6A5dxMrh7uqrEJKYl36LTZLhwJXMJb__9sj9O32A7-rfQ7UmD29zuz2ezAwAJc0nC_EAAAA"
+        },
+        {
+          "name": "Liu Yuxin",
+          "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRtaM2R1gWHW8ojxGj_lZ9NNDPmrITIIEpC__7Acy6Koa-dCt6iH59HbUg8PntVUQN63kBzqFg&s=19",
+          "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Liu+Yuxin&stick=H4sIAAAAAAAAAOOQUeLVT9c3NEyzLEspyE7LNhJMzsjMSy1OVSjIL1AoLkksKo7iD8_IV8gsVvBKrFRwzsgvPcXIpZ-rb2CYnW6akwXlmCYZWppnnGJENe0UIydI0siyosgMJpeRVm6Uk5yRBtVYVlBiaZoEVWheZJqRAWPnZhTFQxXlmBqaV-VBJQyLDLMqfjEKOqM7dBErp09mqUJkaUVm3i02SYYDVzKX_P7bI_fv9AG-q38P1Zo8vM3t9ngyMwBGECUo9QAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQs9oBKAF6BAh9EAM",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Liu+Yuxin&stick=H4sIAAAAAAAAAOOQUeLVT9c3NEyzLEspyE7LNhJMzsjMSy1OVSjIL1AoLkksKo7iD8_IV8gsVvBKrFRwzsgvPcXIpZ-rb2CYnW6akwXlmCYZWppnnGJENe0UIydI0siyosgMJpeRVm6Uk5yRBtVYVlBiaZoEVWheZJqRAWPnZhTFQxXlmBqaV-VBJQyLDLMqfjEKOqM7dBErp09mqUJkaUVm3i02SYYDVzKX_P7bI_fv9AG-q38P1Zo8vM3t9ngyMwBGECUo9QAAAA"
+        },
+        {
+          "name": "Teresa Teng",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4kIicYg66UOhb7BKzX9c5qVmo5E74OdDfitYj6zlQzMLSaiOfewme&s=0",
+          "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Teresa+Teng&stick=H4sIAAAAAAAAAOOQUeLUz9U3MLKsKDIzEkzOyMxLLU5VKMgvUCguSSwqjuIPz8hXyCxW8EqsVHDOyC89xcgFUm-YnW6akwXlmCYZWppnnGLk1U_XNzRMsyxLKchOyz7FiDAZJpeRVm6Uk5yRBtVYVlBiaZoEVWheZJqRAWPnZhTFQxXlmBqaV-VBJQyLDLMqfjEKOqM7dBErd0hqUWpxokJIal76LTZJhgNXMpf8_tsj9-_0Ab6rfw_Vmjy8ze32eDIzAOPQ4S7zAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQs9oBKAJ6BAh9EAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Teresa+Teng&stick=H4sIAAAAAAAAAOOQUeLUz9U3MLKsKDIzEkzOyMxLLU5VKMgvUCguSSwqjuIPz8hXyCxW8EqsVHDOyC89xcgFUm-YnW6akwXlmCYZWppnnGLk1U_XNzRMsyxLKchOyz7FiDAZJpeRVm6Uk5yRBtVYVlBiaZoEVWheZJqRAWPnZhTFQxXlmBqaV-VBJQyLDLMqfjEKOqM7dBErd0hqUWpxokJIal76LTZJhgNXMpf8_tsj9-_0Ab6rfw_Vmjy8ze32eDIzAOPQ4S7zAAAA"
+        },
+        {
+          "name": "Lu Keran",
+          "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSn-TagZSG26ZIvlLFLnLrYFZ_wqX1gxyB8qRTSPkiGzDQxfnPpPAirN8U8Bev5EHRf_RqYKGY&s=19",
+          "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Lu+Keran&stick=H4sIAAAAAAAAAOOQUeLVT9c3NMxIKzfKSc5IMxJMzsjMSy1OVSjIL1AoLkksKo7iD8_IV8gsVvBKrFRwzsgvPcXIpZ-rb2CYnW6akwXlmCYZWppnnGKEmJZmWZZSkJ2WfYqREyRpZFlRZAaTg9kE1VhWUGJpmgRVaF5kmpEBY-dmFMVDFeWYGppX5UElDIsMsyp-MQo6ozt0ESuHT6mCd2pRYt4tNkmGA1cyl_z-2yP37_QBvqt_D9WaPLzN7fZ4MjMA2P8LzPQAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQs9oBKAN6BAh9EAU",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Lu+Keran&stick=H4sIAAAAAAAAAOOQUeLVT9c3NMxIKzfKSc5IMxJMzsjMSy1OVSjIL1AoLkksKo7iD8_IV8gsVvBKrFRwzsgvPcXIpZ-rb2CYnW6akwXlmCYZWppnnGKEmJZmWZZSkJ2WfYqREyRpZFlRZAaTg9kE1VhWUGJpmgRVaF5kmpEBY-dmFMVDFeWYGppX5UElDIsMsyp-MQo6ozt0ESuHT6mCd2pRYt4tNkmGA1cyl_z-2yP37_QBvqt_D9WaPLzN7fZ4MjMA2P8LzPQAAAA"
+        },
+        {
+          "name": "Yang Kun",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoUbD3cUZSwyjHzgK02vb7aYd7rVbQ0CGYPxqILnn1tZOI4Eqyr7YE&s=0",
+          "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Yang+Kun&stick=H4sIAAAAAAAAAOOQUeLSz9U3KCsosTRNMhJMzsjMSy1OVSjIL1AoLkksKo7iD8_IV8gsVvBKrFRwzsgvPcUI1mCYnW6akwXlmCYZWppnnGLk1U_XNzRMsyxLKchOyz7FyAmSNLKsKDKDyWWklRvlJGekQTVCrIUqNC8yzciAsXMziuKhinJMDc2r8qAShkWGWRW_GAWd0R26iJUjMjEvXcG7NO8WmyTDgSuZS37_7ZH7d_oA39W_h2pNHt7mdns8mRkA2AemCPEAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQs9oBKAR6BAh9EAY",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Yang+Kun&stick=H4sIAAAAAAAAAOOQUeLSz9U3KCsosTRNMhJMzsjMSy1OVSjIL1AoLkksKo7iD8_IV8gsVvBKrFRwzsgvPcUI1mCYnW6akwXlmCYZWppnnGLk1U_XNzRMsyxLKchOyz7FyAmSNLKsKDKDyWWklRvlJGekQTVCrIUqNC8yzciAsXMziuKhinJMDc2r8qAShkWGWRW_GAWd0R26iJUjMjEvXcG7NO8WmyTDgSuZS37_7ZH7d_oA39W_h2pNHt7mdns8mRkA2AemCPEAAAA"
+        },
+        {
+          "name": "Jane Zhang",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMPZBqPPISwGL8ckfBOD4NWkrWVEZW5Dp31uobpPwP9WtJF4i7gPGT&s=0",
+          "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Jane+Zhang&stick=H4sIAAAAAAAAAOOQUeLUz9U3MC8yzcgwEkzOyMxLLU5VKMgvUCguSSwqjuIPz8hXyCxW8EqsVHDOyC89xcgFUm-YnW6akwXlmCYZWppnnGLk1U_XNzRMsyxLKchOyz7FCDbZyLKiyAwml5FWbpSTnJEG1VhWUGJpmgRVCHYCjJ2bURQPVZRjamhelQeVMCwyzKr4xSjojO7QRaxcXol5qQpRGYl56bfYJBkOXMlc8vtvj9y_0wf4rv49VGvy8Da32-PJzACf6sgp8gAAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQs9oBKAV6BAh9EAc",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Jane+Zhang&stick=H4sIAAAAAAAAAOOQUeLUz9U3MC8yzcgwEkzOyMxLLU5VKMgvUCguSSwqjuIPz8hXyCxW8EqsVHDOyC89xcgFUm-YnW6akwXlmCYZWppnnGLk1U_XNzRMsyxLKchOyz7FCDbZyLKiyAwml5FWbpSTnJEG1VhWUGJpmgRVCHYCjJ2bURQPVZRjamhelQeVMCwyzKr4xSjojO7QRaxcXol5qQpRGYl56bfYJBkOXMlc8vtvj9y_0wf4rv49VGvy8Da32-PJzACf6sgp8gAAAA"
+        }
+      ],
+      "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Chinese+pop+stars&stick=H4sIAAAAAAAAAOOQMRJMzsjMSy1OVSjIL1AoLkksKo7iD8_IV8gsVvBKrFRwzsgvPcXIpZ-rb2CYnW6akwXlmCYZWppnnGLk1U_XNzRMsyxLKchOyz7FyAmSNLKsKDKDyWWklRvlJGekQTWWFZRYmiZBFZoXmWZkwNi5GUXxUEU5pobmVXlQCcMiw6yKX4yCzugOXcSKKXaLTZLhwJXMJb__9sj9O32A7-rfQ7UmD29zuz2ezAwArQUaSe4AAAA&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQ4qYDegQIfRAI",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Chinese+pop+stars&stick=H4sIAAAAAAAAAOOQMRJMzsjMSy1OVSjIL1AoLkksKo7iD8_IV8gsVvBKrFRwzsgvPcXIpZ-rb2CYnW6akwXlmCYZWppnnGLk1U_XNzRMsyxLKchOyz7FyAmSNLKsKDKDyWWklRvlJGekQTWWFZRYmiZBFZoXmWZkwNi5GUXxUEU5pobmVXlQCcMiw6yKX4yCzugOXcSKKXaLTZLhwJXMJb__9sj9O32A7-rfQ7UmD29zuz2ezAwArQUaSe4AAAA"
+    },
+    {
+      "block_position": 1,
+      "query": "jay chou net worth",
+      "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Jay+Chou+net+worth&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQ1QJ6BQiFARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Jay+Chou+net+worth"
+    },
+    {
+      "block_position": 1,
+      "query": "jay chou wife",
+      "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Jay+Chou+wife&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQ1QJ6BQiHARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Jay+Chou+wife"
+    },
+    {
+      "block_position": 1,
+      "query": "jay chou family",
+      "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Jay+Chou+family&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQ1QJ6BQiGARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Jay+Chou+family"
+    },
+    {
+      "block_position": 1,
+      "query": "jay chou son",
+      "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Jay+Chou+son&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQ1QJ6BQiEARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Jay+Chou+son"
+    },
+    {
+      "block_position": 1,
+      "query": "jay chou age",
+      "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Jay+Chou+age&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQ1QJ6BQiJARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Jay+Chou+age"
+    },
+    {
+      "block_position": 1,
+      "query": "jay chou - wikipedia",
+      "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Jay+Chou+-+Wikipedia&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQ1QJ6BQiKARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Jay+Chou+-+Wikipedia"
+    },
+    {
+      "block_position": 1,
+      "query": "jay chou first song",
+      "link": "https://www.google.com/search?sca_esv=570303733&gl=us&hl=en&q=Jay+Chou+first+song&sa=X&ved=2ahUKEwjgpd-u0dmBAxVqmGoFHVAxCqIQ1QJ6BQiIARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Jay+Chou+first+song"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=Who+is+Jay+Chou&oq=Who+is+Jay+Chou&hl=en&gl=us&start=10&sourceid=chrome&ie=UTF-8",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=Who+is+Jay+Chou&oq=Who+is+Jay+Chou&hl=en&gl=us&start=10&sourceid=chrome&ie=UTF-8",
+      "3": "https://www.google.com/search?q=Who+is+Jay+Chou&oq=Who+is+Jay+Chou&hl=en&gl=us&start=20&sourceid=chrome&ie=UTF-8",
+      "4": "https://www.google.com/search?q=Who+is+Jay+Chou&oq=Who+is+Jay+Chou&hl=en&gl=us&start=30&sourceid=chrome&ie=UTF-8",
+      "5": "https://www.google.com/search?q=Who+is+Jay+Chou&oq=Who+is+Jay+Chou&hl=en&gl=us&start=40&sourceid=chrome&ie=UTF-8"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Who+is+Jay+Chou&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Who+is+Jay+Chou&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Who+is+Jay+Chou&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Who+is+Jay+Chou&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Who+is+Jay+Chou&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Who+is+Jay+Chou&start=40"
+    }
+  }
+}

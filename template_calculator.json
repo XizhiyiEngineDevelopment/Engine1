@@ -1,0 +1,52 @@
+{
+    "describe": "把一个数学问题转化成python命令返回，待python执行算出数学问题答案",
+    "input": {
+        "math_expression": {
+            "describe": "待计算的数学公式"
+        }
+    },
+    "output": {
+        "Thought": {
+            "describe": "模型给出如何解决问题的步骤",
+            "matching": ["^", "\nAction:"]
+        },
+        "Action": {
+            "describe": "模型给出如何解决问题的步骤",
+            "matching": ["\nAction:", "\nAction Input:"]
+        },
+        "Action Input": {
+            "describe": "模型给出如何解决问题的步骤",
+            "matching": ["\nAction Input:", "$"]
+        }
+    },
+    "prompt": {
+        "model": "gpt-3.5-turbo",
+        "messages": [
+            {
+                "role": "user",
+                "content": "Translate a math problem into a expression that can be executed using Python's numexpr library. Use the output of running this code to answer the question.\n\nQuestion: #{Question with math problem.}\n```text\n#{single line mathematical expression that solves the problem}\n```\n...numexpr.evaluate(text)...\n```output\n#{Output of running the code}\n```\nAnswer: #{Answer}\n\nBegin.\n\nQuestion: What is 37593 * 67?\n```text\n37593 * 67\n```\n...numexpr.evaluate(\"37593 * 67\")...\n```output\n2518731\n```\nAnswer: 2518731\n\nQuestion: 37593^(1/5)\n```text\n37593**(1/5)\n```\n...numexpr.evaluate(\"37593**(1/5)\")...\n```output\n8.222831614237718\n```\nAnswer: 8.222831614237718\n\nQuestion: ${math_expression}\n"
+            }
+        ],
+        "temperature": 0,
+        "max_tokens": 2048,
+        "top_p": 1,
+        "frequency_penalty": 0.9,
+        "presence_penalty": 0.9,
+        "stop":  "```output"
+    },
+    "expect_response": {
+        "choices": [
+            {
+                "text": "```text\n43**0.43\n```\n...numexpr.evaluate(\"43**0.43\")...\n",
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 232,
+              "completion_tokens": 27,
+              "total_tokens": 259
+            }
+    }
+}
