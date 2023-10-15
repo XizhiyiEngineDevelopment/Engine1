@@ -10,8 +10,7 @@ import re
 import os
 import json
 
-os.environ["OPENAI_API_KEY"] = "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"
-# openai.api_key = ("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")
+
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 json_file = "/Users/yihou/Documents/projects/ai_agent_23_10/template1.json"

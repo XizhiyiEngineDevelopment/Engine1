@@ -4,11 +4,12 @@ import json
 from serpapi import GoogleSearch
 import openai
 import re
+import os
 # serp_api
-SERP_API_KEY = "3999fd790801bc6e48e53a4aef4e832d75cc6c4bc9af01db6506ebc63c4676de"
+SERP_API_KEY = os.getenv("SERP_API_KEY")
 # oepnai
-# API_KEY = "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"
-API_KEY = "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" #付费 
+API_KEY = os.getenv("OPENAI_API_KEY")
+
 
 SERP_PARAMS = {
     "q" : "",
